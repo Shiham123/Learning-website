@@ -97,6 +97,17 @@ body {
         left: -70%;
         border: 1px solid black;
       }
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-image: url('../assets/image/Illustrations\ 1\ UIHUT-2.png');
+        width: 144px;
+        height: 144px;
+        top: 70%;
+        right: -70%;
+        border: 1px solid black;
+      }
     }
   }
 
@@ -132,5 +143,17 @@ body {
         color: #003d31;
       }
     }
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #003d31;
   }
 }
