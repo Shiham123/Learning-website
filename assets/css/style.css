@@ -235,9 +235,6 @@ body {
 .section-three .section-three-header h1 span {
   color: #5ce4ca;
 }
-.section-three .items {
-  border: 1px solid;
-}
 .section-three .items .item {
   background: #fffae9;
   border-radius: 12px;
@@ -245,9 +242,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 0px 10px;
+  margin-right: 20px;
   padding: 30px 10px;
-  border: 1px solid black;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .section-three .items .item p {
   font-family: "Neue Montreal";
@@ -260,6 +257,34 @@ body {
 .section-three .items .item p span {
   color: #003d31;
   font-weight: 600;
+}
+
+.section-four .section-four-items {
+  display: flex;
+  justify-content: space-around;
+}
+.section-four .section-four-items .item-one {
+  display: flex;
+  flex-direction: column;
+}
+.section-four .section-four-items .item-one h1 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  color: #003d31;
+}
+.section-four .section-four-items .item-one h1 span {
+  color: #5ce4ca;
+}
+.section-four .section-four-items .item-one p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #596966;
 }
 
 /*# sourceMappingURL=style.css.map */
