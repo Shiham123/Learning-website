@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  border: none;
+  outline: none;
 }
 
 :root {
@@ -16,6 +18,7 @@
 
 body {
   font-family: var(--font-poppins) !important;
+  width: 100%;
 }
 
 .section1 {
@@ -259,15 +262,16 @@ body {
   font-weight: 600;
 }
 
-.section-four .section-four-items {
+.section-four {
+  margin: 10rem 0rem;
   display: flex;
-  justify-content: space-around;
 }
-.section-four .section-four-items .item-one {
+.section-four .items {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.section-four .section-four-items .item-one h1 {
+.section-four .items .item-one h1 {
   font-family: "Neue Montreal";
   font-style: normal;
   font-weight: 700;
@@ -275,16 +279,73 @@ body {
   line-height: 52px;
   color: #003d31;
 }
-.section-four .section-four-items .item-one h1 span {
+.section-four .items .item-one h1 span {
   color: #5ce4ca;
 }
-.section-four .section-four-items .item-one p {
+.section-four .items .item-one p {
   font-family: "Neue Montreal";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #596966;
+}
+.section-four .items .item-one button {
+  border: none;
+  background-color: #fffaa4;
+  padding: 15px 35px;
+  border-radius: 12px;
+}
+.section-four .items .item-two {
+  margin-left: 7rem;
+  width: 470px;
+  height: 280px;
+}
+.section-four .items .item-two img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.section-five {
+  margin: 10rem 0rem;
+  background-color: #ff7d7d;
+  width: 100vw;
+  height: 246px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-five .items {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.section-five .items h3 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #003d31;
+}
+.section-five .items::before {
+  content: "";
+  position: absolute;
+  background-image: url("/assets/image/sec-five-before.png");
+  width: 34px;
+  height: 35px;
+  top: 13%;
+  left: -5%;
+}
+.section-five .items::after {
+  content: "";
+  position: absolute;
+  background-image: url("/assets/image/sec-five-after.png");
+  width: 34px;
+  height: 35px;
+  top: 13%;
+  right: -5%;
 }
 
 /*# sourceMappingURL=style.css.map */
