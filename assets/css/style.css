@@ -19,6 +19,7 @@
 body {
   font-family: var(--font-poppins) !important;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .section1 {
@@ -371,10 +372,17 @@ body {
   text-align: center;
 }
 
+.section-seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 .section-seven .slider-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.4s linear;
 }
 .section-seven .slider-container .slider-item {
   width: 350px;
@@ -420,6 +428,19 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #596966;
+}
+.section-seven .slider-indicators {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-seven .slider-indicators .slider-indicator {
+  width: 50px;
+  height: 3px;
+  background-color: black;
+  cursor: pointer;
+}
+.section-seven .slider-indicators .slider-indicator hr {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
