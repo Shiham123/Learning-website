@@ -566,4 +566,31 @@ body {
   padding: 5px 0px;
 }
 
+.section-eleven h3 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #003d31;
+}
+.section-eleven .footer p {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.section-eleven .footer p:first-child {
+  margin-left: -1.2rem;
+}
+
+footer .copy-right {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copy-right .icon i {
+  font-size: 2rem;
+  padding: 0px 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
