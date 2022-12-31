@@ -371,4 +371,55 @@ body {
   text-align: center;
 }
 
+.section-seven .slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-seven .slider-container .slider-item {
+  width: 350px;
+  height: 350px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+.section-seven .slider-container .slider-item p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #596966;
+}
+.section-seven .slider-container .slider-item .header {
+  display: flex;
+  gap: 50px;
+}
+.section-seven .slider-container .slider-item .header .img {
+  width: 64px;
+  height: 64px;
+}
+.section-seven .slider-container .slider-item .header .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+.section-seven .slider-container .slider-item .header .title h5 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #003d31;
+}
+.section-seven .slider-container .slider-item .header .title p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #596966;
+}
+
 /*# sourceMappingURL=style.css.map */
