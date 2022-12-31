@@ -520,3 +520,123 @@ body {
     }
   }
 }
+
+// --------------------------------
+
+.section-eight {
+  background-color: #5ce4ca;
+  padding: 100px 0px;
+
+  .left {
+    h2 {
+      &:nth-child(1) {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 52px;
+        color: #003d31;
+        background-color: #ffffff;
+        padding: 20px 20px;
+        border-radius: 12px;
+        display: inline-block;
+      }
+
+      &:nth-child(2) {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 52px;
+        color: #003d31;
+        background-color: #fffaa4;
+        padding: 20px 20px;
+        border-radius: 12px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .right {
+    p {
+      font-family: 'Neue Montreal';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #003d31;
+    }
+
+    button {
+      padding: 10px 20px;
+
+      &:nth-child(2) {
+        width: 150px;
+        height: 50px;
+        border-radius: 12px;
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #003d31;
+        transition: all 0.4s linear;
+
+        &:hover {
+          background-color: #ffffff99;
+        }
+      }
+
+      &:nth-child(3) {
+        width: 200px;
+        height: 50px;
+        background: #003d31;
+        border-radius: 12px;
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+
+        &:hover {
+          background: #003d31b3;
+        }
+      }
+    }
+  }
+}
+
+// ---------------------
+
+.section-nine {
+  h2 {
+    text-align: center;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 52px;
+    color: #003d31;
+
+    span {
+      color: #5ce4ca;
+    }
+  }
+
+  p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #5ce4ca;
+
+    a {
+      color: #596966;
+    }
+  }
+}

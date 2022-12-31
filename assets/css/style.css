@@ -443,4 +443,101 @@ body {
   display: none;
 }
 
+.section-eight {
+  background-color: #5ce4ca;
+  padding: 100px 0px;
+}
+.section-eight .left h2:nth-child(1) {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 52px;
+  color: #003d31;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.section-eight .left h2:nth-child(2) {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  color: #003d31;
+  background-color: #fffaa4;
+  padding: 20px 20px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.section-eight .right p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #003d31;
+}
+.section-eight .right button {
+  padding: 10px 20px;
+}
+.section-eight .right button:nth-child(2) {
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #003d31;
+  transition: all 0.4s linear;
+}
+.section-eight .right button:nth-child(2):hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.section-eight .right button:nth-child(3) {
+  width: 200px;
+  height: 50px;
+  background: #003d31;
+  border-radius: 12px;
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-eight .right button:nth-child(3):hover {
+  background: rgba(0, 61, 49, 0.7019607843);
+}
+
+.section-nine h2 {
+  text-align: center;
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  color: #003d31;
+}
+.section-nine h2 span {
+  color: #5ce4ca;
+}
+.section-nine p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #5ce4ca;
+}
+.section-nine p a {
+  color: #596966;
+}
+
 /*# sourceMappingURL=style.css.map */
