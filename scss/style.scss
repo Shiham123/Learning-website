@@ -404,3 +404,32 @@ body {
     }
   }
 }
+
+// --------------------------
+
+.section-six {
+  h2 {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 52px;
+    color: #003d31;
+    text-align: center;
+
+    span {
+      color: #5ce4ca;
+    }
+  }
+
+  p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #596966;
+    text-align: center;
+  }
+}
